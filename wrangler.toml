@@ -1,0 +1,7 @@
+name = "titan-vault-install"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+[[routes]]
+pattern = "install.titanvault.dev/*"
+zone_name = "titanvault.dev"

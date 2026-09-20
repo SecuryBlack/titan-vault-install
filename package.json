@@ -1,0 +1,14 @@
+{
+  "name": "titan-vault-install",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cloudflare Worker para el script de instalación de TitanVault",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.113.0"
+  },
+  "license": "Apache-2.0"
+}

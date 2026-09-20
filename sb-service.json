@@ -1,0 +1,8 @@
+{
+  "name": "TitanVault Installer",
+  "description": "Cloudflare Worker para el script de instalación de TitanVault",
+  "type": "wrangler",
+  "role": "installer",
+  "port": 8788,
+  "start": "npx wrangler dev --port 8788"
+}
