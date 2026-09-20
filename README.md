@@ -1,6 +1,10 @@
 # TitanVault Install Worker
 
-Cloudflare Worker para servir el instalador oficial de TitanVault según el sistema operativo:
+Official Cloudflare Worker that dynamically serves the installation script for **TitanVault** based on the client User-Agent and operating system:
 
 - **Linux / macOS:** `curl -fsSL https://install.titanvault.dev | sudo bash`
-- **Windows:** `irm https://install.titanvault.dev | iex`
+- **Windows (PowerShell):** `irm https://install.titanvault.dev | iex`
+
+## License
+
+Apache-2.0 License.
