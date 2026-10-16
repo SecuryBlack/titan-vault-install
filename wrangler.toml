@@ -5,3 +5,7 @@ compatibility_date = "2025-01-01"
 [[routes]]
 pattern = "install.titanvault.dev/*"
 zone_name = "titanvault.dev"
+
+[[analytics_engine_datasets]]
+binding = "INSTALLS"
+dataset = "titanvault_installs"
